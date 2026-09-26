@@ -103,7 +103,7 @@
 
      ;; Visual text
      (fg-region unspecified)
-     (bg-active graphite)
+     (bg-region graphite)
 
      ;; Mail (GNUS, mu4e, notmuch)
      (mail-cite-0 yellow)
