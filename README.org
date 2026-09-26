@@ -1,5 +1,5 @@
 #+title: Modus Vague theme for GNU Emacs
-#+author: Ashish Panigrahi
+#+author: Ashish Panigrahi (fix by vimjeremy)
 #+startup: showeverything
 
 This is the emacs port of the [[https://github.com/vague-theme/vague][vague]] theme built on top of [[https://protesilaos.com/emacs/modus-themes][Modus
@@ -40,7 +40,7 @@ work. If not, please open an issue on the issue tracker.
 
 #+begin_src emacs-lisp
   (use-package modus-vague
-    :vc (:url "https://github.com/paniash/modus-vague"
+    :vc (:url "https://github.com/vimjeremy/modus-vague"
          :rev :newest
          :branch "main")
     :config
@@ -53,7 +53,7 @@ work. If not, please open an issue on the issue tracker.
 #+begin_src emacs-lisp
   (use-package modus-vague
     :straight (modus-vague :host github
-                           :repo "paniash/modus-vague"
+                           :repo "vimjeremy/modus-vague"
                            :branch "main")
     :config
     (modus-themes-load-theme 'modus-vague))
@@ -64,7 +64,7 @@ work. If not, please open an issue on the issue tracker.
 - Clone the git repository into a directory (say =~/.emacs.d/themes/=):
 
 #+begin_src shell
-  git clone https://github.com/paniash/modus-vague ~/.emacs.d/themes/modus-vague
+  git clone https://github.com/vimjeremy/modus-vague ~/.emacs.d/themes/modus-vague
 #+end_src
 
 - Add the following to your =init.el=:
