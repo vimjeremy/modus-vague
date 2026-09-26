@@ -13,6 +13,7 @@ fleeting memory...
 #+end_quote
 
 *Note:*
+THIS THEME WAS NOT MADE BY ME. ALL CREDITS GO TO [[https://ashishpanigrahi.com][Ashish Panigrahi]]. I JUST IMPLEMENTED A FIX
 
 I ported this theme for emacs for personal use. As such, the current
 state of the theme serves most of my needs.
